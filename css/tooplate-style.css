@@ -339,15 +339,19 @@ b, strong {
   position: absolute;
   width: 75px;
   height: 75px;
-  line-height: 75px;
   text-align: center;
 }
 .timeline-yr span {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   display: block;
-  line-height: 75px;
+  margin-top: 7px;
+}
+
+.timeline-yr .strips {
+  margin-top: -5px;
+  margin-bottom: -12px;
 }
 
 .timeline-info {
